@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="title">Welcome to My Site</h1>
+      <p class="subtitle">A simple, clean landing page hosted on GitHub Pages.</p>
+      <a class="cta" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <section id="features" class="container features">
+    <div class="card">
+      <h3>Feature One</h3>
+      <p>Short line about what you offer.</p>
+    </div>
+    <div class="card">
+      <h3>Feature Two</h3>
+      <p>Short line about what you offer.</p>
+    </div>
+    <div class="card">
+      <h3>Feature Three</h3>
+      <p>Short line about what you offer.</p>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>&copy; <span id="year"></span> Your Name</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
